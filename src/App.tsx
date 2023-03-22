@@ -1,27 +1,22 @@
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import './App.css';
+import Product from './product/product';
 import { TProduct } from './types/TProduct.type';
 
+
 function App() {
-  const [user, setUsers] = useState<TProduct | null>(null);
+ 
+
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        
-      </header>
-      <main>
-
-      </main>
-
-      <footer>
-        
-      </footer>
-    </div>
+    <>
+      <Product></Product>
+   </>
+    
   );
-}
+};
+
 
 export default App;
+
+
