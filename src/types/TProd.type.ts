@@ -1,4 +1,8 @@
-export type TPprod = {
+
+
+
+export type TProd = {
+   
     id: number;
 
     name: string;
@@ -7,4 +11,4 @@ export type TPprod = {
 
     quantity: number;
     
-}
+} 

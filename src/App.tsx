@@ -1,7 +1,7 @@
-import { useEffect, useRef, useState } from 'react';
 import './App.css';
 import Product from './product/product';
 import { TProduct } from './types/TProduct.type';
+import Prod from './product/prod';
 
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
   return (
     <>
       <Product></Product>
+     
    </>
     
   );

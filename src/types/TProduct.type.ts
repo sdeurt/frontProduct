@@ -1,5 +1,7 @@
 
 export type TProduct = {
+    data: number;
+   
     id: number;
 
     name: string;
@@ -8,4 +10,4 @@ export type TProduct = {
 
     quantity: number;
     
-}
+} 
